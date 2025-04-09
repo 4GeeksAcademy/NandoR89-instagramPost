@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    background-color: white;
+    width: 600px;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.instagram_header {
+    display: flex;
+    position: relative;
+    padding: 10px 5px;
+}
+
+.instagram_header .html_icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+width: 100px;
+}
+
+.name h1, p{
+    margin-left: 10px;
+    justify-content: center;
+    margin: 0;
+    font-size: medium;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.instagram_image {
+    width: 100%;
+}
+
+.instagram_image img{
+    width: 100%;
+    margin-top: 5px;
+    padding: 0;
+    filter: brightness(0.7);
+}
+
+.instagram_post {
+    padding: 15px 15px;
+}
+
+.icons_post{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-right: 10px;
+}
+
+.like_mess_send {
+    width: 150px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
